@@ -1,0 +1,86 @@
+.game {
+    width: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.play {
+    width: 60px;
+}
+
+li {
+    list-style-type: none;
+    padding: 36px;
+    border-radius: 12px;
+    flex: 1;
+    box-shadow: inset 3000px 3000px 10px #0000008e;
+    max-width: 300px;
+}
+body{
+    background-color: #1a1a1a;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family:Arial, Helvetica, sans-serif;
+}
+ul{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    padding: 36px;
+    border-radius: 12px;
+    background-color: #383838;
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr ;
+}
+.sintonia{
+    background-image: url('https://www.cnnbrasil.com.br/wp-content/uploads/sites/12/2024/12/PT-BR_SINTONIA_ABRACO_RITA_E_DONI_KEY_ART_4x5_RGB_PRE-e1734441539775.jpg?w=1200&h=675&crop=1');
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.outer {
+    background-image: url('https://cinebuzz.com.br/media/uploads/2024/08/outer-banks-4a-temporada-ganha-teaser-e-data-de-estreia-na-netflix.jpg');
+    background-size: cover; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ComCarinho{
+    background-image: url('https://s2-techtudo.glbimg.com/fFPzaYLgLMuLnrku5jHQeS_meiQ=/1200x/smart/filters:cover():strip_icc()/i.s3.glbimg.com/v1/AUTH_08fbf48bc0524877943fe86e43087e7a/internal_photos/bs/2023/i/E/45T8BURA2Pt7HIsxdmWg/kitty.jpg');
+    background-size: cover;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Violetta{
+    background-image: url('https://data.pixiz.com/output/user/frame/preview/api/big/3/2/2/9/2119223_0b43b.jpg');
+    background-size: cover;  
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+.voltaaos15{
+    background-image: url('https://i1.wp.com/www.depoisdosquinze.com/app/uploads/2022/01/ACS_0518-scaled.jpg?fit=1966%2C2560&ssl=1');
+    background-size: cover;  
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+} 
+.kallys{
+    background-image: url('https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhN7cVntS94UdqGIonQYUcD_V20hNvLU4CnyDIwwjq4G1IRLnA2IjQTA4wycaAnsW1vzvP99_a3YUlwI8YO5q0usfJW_h-fjg-uhw63fKWZZ0OX5OxX6ZMJ78d_ptFEfqvptBYKBWy6QORc/s1600/04+-+KALLY%25E2%2580%2599S+MASHUP.jpg');
+    background-size: cover;  
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+} 

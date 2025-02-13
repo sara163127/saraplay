@@ -15,7 +15,7 @@ li {
     border-radius: 12px;
     flex: 1;
     box-shadow: inset 3000px 3000px 10px #0000008e;
-    max-width: 300px;
+    min-width: 300px;
 }
 body{
     background-color: #1a1a1a;
@@ -32,8 +32,7 @@ ul{
     padding: 36px;
     border-radius: 12px;
     background-color: #383838;
-    display: grid;
-    grid-template-columns:1fr 1fr 1fr ;
+
 }
 .sintonia{
     background-image: url('https://www.cnnbrasil.com.br/wp-content/uploads/sites/12/2024/12/PT-BR_SINTONIA_ABRACO_RITA_E_DONI_KEY_ART_4x5_RGB_PRE-e1734441539775.jpg?w=1200&h=675&crop=1');

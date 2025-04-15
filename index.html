@@ -13,8 +13,12 @@
         src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/i/54fbf860-1d0d-46e7-a22a-74edb3053c67/d6qj64q-f30328aa-5b8c-4ec4-979a-dea8d78c5498.png"
         alt="">
 
-    <h1>Serie disponíveis</h1>
-    <ul>
+
+
+
+    <h1>Serie e filme disponíveis</h1>
+    <input type="text" id="searchInput" placeholder="Pesquisar..." onkeyup="filtrar()">
+    <ul id="lista">
 
         <li class="sintonia">
             <div>
@@ -22,9 +26,10 @@
                 <p> uma série que conta a história de três amigos da periferia de São Paulo (Nando, Rita e Doni), que
                     precisam correr atrás dos próprios sonhos.</p>
             </div>
-            <img class="play"
-                src="https://cdn0.iconfinder.com/data/icons/google-material-design-3-0/48/ic_play_circle_filled_white_48px-512.png"
-                alt="">
+            <a href="javascript:openModal('https://youtu.be/o2Oo5SONDjI?si=SUPDfKZM8cG9uHNe')">
+                <img class="play"
+                    src="https://cdn0.iconfinder.com/data/icons/google-material-design-3-0/48/ic_play_circle_filled_white_48px-512.png"
+                    alt=""></a>
         </li>
         <li class="outer">
             <div>
@@ -32,9 +37,11 @@
                 <p> Numa ilha de ricos e pobres da Carolina do Norte, John B e seu grupo de amigos encontram mistério e
                     aventura numa caça ao tesouro perdido. </p>
             </div>
-            <img class="play"
-                src="https://cdn0.iconfinder.com/data/icons/google-material-design-3-0/48/ic_play_circle_filled_white_48px-512.png"
-                alt="">
+            <a href="javascript:openModal(
+                'https://youtu.be/RvBdFwHO3nE?si=D0IYeyid2AYwovef')">
+                <img class="play"
+                    src="https://cdn0.iconfinder.com/data/icons/google-material-design-3-0/48/ic_play_circle_filled_white_48px-512.png"
+                    alt=""></a>
         </li>
         <li class="ComCarinho">
             <div>
@@ -42,9 +49,10 @@
                 <p> A adolescente ainda enfrenta novos desafios amorosos, amizades e descobertas que testam seus laços
                     familiares e sua visão sobre o amor .</p>
             </div>
-            <img class="play"
-                src="https://cdn0.iconfinder.com/data/icons/google-material-design-3-0/48/ic_play_circle_filled_white_48px-512.png"
-                alt="">
+            <a href="javascript:openModal('https://youtube.com/watch?v=B4Zu8NO09pE&si=pvQ7RbL_T0a1JeRr')">
+                <img class="play"
+                    src="https://cdn0.iconfinder.com/data/icons/google-material-design-3-0/48/ic_play_circle_filled_white_48px-512.png"
+                    alt=""></a>
         </li>
         <li class="voltaaos15">
             <div>
@@ -54,9 +62,10 @@
                     positivas.
                 </p>
             </div>
-            <img class="play"
-                src="https://cdn0.iconfinder.com/data/icons/google-material-design-3-0/48/ic_play_circle_filled_white_48px-512.png"
-                alt="">
+            <a href="javascript:openModal('https://youtube.com/watch?v=WLaFr5eem2o&si=ypETWnUPk_aNE5f6')">
+                <img class="play"
+                    src="https://cdn0.iconfinder.com/data/icons/google-material-design-3-0/48/ic_play_circle_filled_white_48px-512.png"
+                    alt=""></a>
         </li>
         <li class="Violetta">
             <div>
@@ -64,24 +73,183 @@
                 <p> Violetta conta a história de uma jovem que, ao retornar a Buenos Aires, encontra amizade, amor e
                     descobre sua paixão. </p>
             </div>
-            <img class="play"
-                src="https://cdn0.iconfinder.com/data/icons/google-material-design-3-0/48/ic_play_circle_filled_white_48px-512.png"
-                alt="">
+            <a href="javascript:openModal('https://youtube.com/watch?v=pnI3zeah3O8&si=aMFJwmiG0s5C5MAn')">
+                <img class="play"
+                    src="https://cdn0.iconfinder.com/data/icons/google-material-design-3-0/48/ic_play_circle_filled_white_48px-512.png"
+                    alt=""></a>
         </li>
 
         <li class="kallys">
             <div>
                 <h2>kally's mashup</h2>
                 <p> Kally é uma adolescente que vê sua vida mudar completamente quando passa a morar com
-                    o pai para estudar piano no Conservatório Allegro. Lá, ela faz amizades verdadeiras e encontra o amor da vida dela . </p>
+                    o pai para estudar piano no Conservatório Allegro. Lá, ela faz amizades verdadeiras e encontra o
+                    amor da vida dela . </p>
             </div>
-            <img class="play"
-                src="https://cdn0.iconfinder.com/data/icons/google-material-design-3-0/48/ic_play_circle_filled_white_48px-512.png"
-                alt="">
+            <a href="javascript:openModal('https://youtube.com/watch?v=EFWREjbh5GU&si=5Zc6hjrwqIOq4AfO')"> <img class="play"
+                    src="https://cdn0.iconfinder.com/data/icons/google-material-design-3-0/48/ic_play_circle_filled_white_48px-512.png"
+                    alt=""></a>
+        </li>
+        <li class="cobra">
+            <div>
+                <h2>Cobra Kai</h2>
+                <p> Ao reabrir o dojo Cobra Kai, Johnny busca redenção e um novo propósito, tentando se reconciliar com
+                    um mundo que parece tê-lo deixado para trás . </p>
+            </div>
+            <a href="javascript:openModal('https://youtube.com/watch?v=dRtrKQa_mms&si=iHsFsQNBtZ7bM_Mk')"> <img class="play"
+                    src="https://cdn0.iconfinder.com/data/icons/google-material-design-3-0/48/ic_play_circle_filled_white_48px-512.png"
+                    alt=""></a>
+        </li>
+        <li class="O11ZE">
+            <div>
+                <h2>O11ZE</h2>
+                <p>Gabo Moreti, um adolescente talentoso no futebol, tem sua vida transformada ao ser descoberto por um
+                    treinador renomado. </p>
+            </div>
+            <a href="javascript:openModal('https://youtube.com/watch?v=2P1peu99hNg&si=l-VF6mhfE86if7_s')"> <img class="play"
+                    src="https://cdn0.iconfinder.com/data/icons/google-material-design-3-0/48/ic_play_circle_filled_white_48px-512.png"
+                    alt=""></a>
         </li>
 
-    </ul>
+        <li class="meninas">
+            <div>
+                <h2>Meninas Não Choram</h2>
+                <p> A coragem e positividade de Pipa são tão fortes que servem de inspiração para sua família e amigos,
+                    que se unem para superar os tempos de adversidade. </p>
+            </div>
+            <a href="javascript:openModal('https://youtube.com/watch?v=88YilPjdCAY&si=lNVGobPZEWIPYqzR')"> <img class="play"
+                    src="https://cdn0.iconfinder.com/data/icons/google-material-design-3-0/48/ic_play_circle_filled_white_48px-512.png"
+                    alt=""></a>
+        </li>
+        <li class="peça">
+            <div>
+                <h2>Mae uma peça</h2>
+                <p> Depois de mais uma briga com os filhos, Dona Hermínia decide se afastar deles por um tempo e se
+                    esconde na casa da tia, onde relembra os filhos numa época em que eles ainda precisavam dela. </p>
+            </div>
+            <a href="javascript:openModal('https://youtube.com/watch?v=9hyLbCV0Dxo&si=i3paAOUU21vA3iQV')"> <img class="play"
+                    src="https://cdn0.iconfinder.com/data/icons/google-material-design-3-0/48/ic_play_circle_filled_white_48px-512.png"
+                    alt=""></a>
+        </li>
+        <li class="crepusculo">
+            <div>
+                <h2>Crepúsculo</h2>
+                <p> Bella Swan se apaixona pelo misterioso vampiro Edward Cullen, iniciando um romance perigoso e
+                    imortal. </p>
+            </div>
+            <a href="javascript:openModal('https://youtube.com/watch?v=7svbINkjPiU&si=39V15qq1AdglL6mw')"> <img class="play"
+                    src="https://cdn0.iconfinder.com/data/icons/google-material-design-3-0/48/ic_play_circle_filled_white_48px-512.png"
+                    alt=""></a>
+        </li>
+        <li class="gente">
+            <div>
+                <h2>Gente Grande</h2>
+                <p> Cinco amigos de infância se reencontram para um fim de semana caótico, revivendo as loucuras do
+                    passado. </p>
+            </div>
+            <a href="javascript:openModal(https://youtube.com/watch?v=HKVve_VSz58&si=_MzbZSinJEeH-IBj)"> <img class="play"
+                    src="https://cdn0.iconfinder.com/data/icons/google-material-design-3-0/48/ic_play_circle_filled_white_48px-512.png"
+                    alt=""></a>
+        </li>
+        <li class="altura">
+            <div>
+                <h2>Crush à Altura</h2>
+                <p> Uma garota alta enfrenta suas inseguranças ao se envolver em um triângulo amoroso inesperado. </p>
+            </div>
+            <a href="javascript:openModal('https://youtube.com/watch?v=NfpXeLVzJIw&si=rbP9KufISL43eg3s')"> <img class="play"
+                    src="https://cdn0.iconfinder.com/data/icons/google-material-design-3-0/48/ic_play_circle_filled_white_48px-512.png"
+                    alt=""></a>
+        </li>
+        <li class="garotojaamei">
+            <div>
+                <h2>Para todos os garotos que já amei</h2>
+                <p> Lara Jean, uma colegial, escreve cartas para os garotos por quem está apaixonada, mas as guarda no
+                    armário em vez de enviá-las. As coisas mudam quando sua irmã descobre as cartas.</p>
+            </div>
+            <a href="javascript:openModal('https://youtube.com/watch?v=CK-g0OqzQHQ&si=4cmF8MGbwYDl4XJV')"> <img class="play"
+                    src="https://cdn0.iconfinder.com/data/icons/google-material-design-3-0/48/ic_play_circle_filled_white_48px-512.png"
+                    alt=""></a>
+        </li>
+        <li class="Popstar">
+            <div>
+                <h2>Tudo Por Um Popstar</h2>
+                <p> Três melhores amigos tentam convencer seus pais a deixá-los assistir a um show de sua banda pop
+                    favorita em uma cidade próxima. </p>
+            </div>
+            <a href="javascript:openModal('https://youtube.com/watch?v=x-YyXWnXkvg&si=Zas2XfK2AjtO0023')"> <img class="play"
+                    src="https://cdn0.iconfinder.com/data/icons/google-material-design-3-0/48/ic_play_circle_filled_white_48px-512.png"
+                    alt=""></a>
+        </li>
+        <li class="cinderela">
+            <div>
+                <h2>Cinderela Pop</h2>
+                <p>Uma adolescente desiludida encontra seu caminho como DJ até que um cantor se apaixona por sua música.
+                </p>
+            </div>
+            <a href="javascript:openModal('https://youtube.com/watch?v=owNYIv6CrS8&si=PYb4xvhWu7o3GDjM')"> <img class="play"
+                    src="https://cdn0.iconfinder.com/data/icons/google-material-design-3-0/48/ic_play_circle_filled_white_48px-512.png"
+                    alt=""></a>
+        </li>
+        <li class="meus15anos">
+            <div>
+                <h2>Meus 15 anos</h2>
+                <p> Uma adolescente tímida tem sua vida virada do avesso ao ganhar uma festa de 15 anos dos sonhos.</p>
+            </div>
+            <a href="javascript:openModal('https://youtube.com/watch?v=pGmyKd5APy8&si=w_9gw7Z1paUHdugR')"> <img class="play"
+                    src="https://cdn0.iconfinder.com/data/icons/google-material-design-3-0/48/ic_play_circle_filled_white_48px-512.png"
+                    alt=""></a>
+        </li>
+        <li class="fazendomeufilme">
+            <div>
+                <h2>Fazendo meu filme</h2>
+                <p>Uma garota sonhadora vê sua vida mudar ao viver um intercâmbio que transforma seu coração e seus
+                    planos.
+                </p>
+            </div>
+            <a href="javascript:openModal('https://youtube.com/watch?v=95-nD4GX4JM&si=o0SzyNceyuDg-H4r')"> <img class="play"
+                    src="https://cdn0.iconfinder.com/data/icons/google-material-design-3-0/48/ic_play_circle_filled_white_48px-512.png"
+                    alt=""></a>
+        </li>
+        <li class="morandocomocrush">
+            <div>
+                <h2>Morando Com O Crush</h2>
+                <p>Dois colegas acabam morando juntos por acaso e, entre confusões e convivência, nasce um romance
+                    inesperado
+                </p>
+            </div>
+            <a href="javascript:openModal('https://youtube.com/watch?v=piMSNmTmvnI&si=8mb_iCTAUfK45zoG')"> <img class="play"
+                    src="https://cdn0.iconfinder.com/data/icons/google-material-design-3-0/48/ic_play_circle_filled_white_48px-512.png"
+                    alt=""></a>
+        </li>
+        <li class="odateperfeito">
+            <div>
+                <h2>O Date Perfeito</h2>
+                <p>Um estudante cria um app para ser encontro falso e pagar a faculdade, mas tudo muda quando ele se
+                    apaixona de verdade.
 
+                </p>
+            </div>
+            <a href="javascript:openModal('https://youtube.com/watch?v=Hld-7oBn3Rk&si=idAPIAOiyV10F5wP')"> <img class="play"
+                    src="https://cdn0.iconfinder.com/data/icons/google-material-design-3-0/48/ic_play_circle_filled_white_48px-512.png"
+                    alt=""></a>
+        </li>
+
+
+
+    </ul>
+    <div id="previewModal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal()">&times;</span>
+            <h2>Nome do Seriado</h2>
+            <video controls>
+                <source src="preview.mp4" type="video/mp4">
+                Seu navegador não suporta vídeos HTML5.
+            </video>
+        </div>
+    </div>
+
+    <script src="index.js"></script>
 </body>
 
 </html>
+<a href="javascript:openModal()"> </a>
